@@ -1,331 +1,471 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-    <title></title>
-    <link rel="icon" href="img" />
+    <title>Price of Glory: Tactics</title>
+    <link rel="icon" href="img/500x500.png" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div id="cookie-popup" class="class-cookie-popup">
-      <div class="class-cookie-popup-container">
-        <p class="class-cookie-popup-text-two">
-          We use cookies to improve your experience on our website. By browsing
-          this website, you agree to our use of cookies.
-        </p>
-        <div class="class-cookie-button-container">
-          <button id="accept-cookies" class="class-cookie-button">
-            Accept cookies
-          </button>
-          <button id="decline-cookies" class="class-cookie-button">
-            Decline Cookies
-          </button>
-        </div>
-      </div>
-    </div>
-    <header class="class-header">
-      <div class="class-header-background"></div>
-      <nav class="class-navigation">
-        <ul class="class-navigation-list">
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">
+    <header class="o-u-header">
+      <div class="o-u-header-background"></div>
+      <nav class="o-u-navigation">
+        <ul class="o-u-navigation-list">
+          <li class="o-u-navigation-item">
+            <a href="/" class="o-u-navigation-link">
               <img
-                class="class-title-img class-navigation-img"
+                class="o-u-title-img o-u-navigation-img"
                 alt="logo"
-                src="img"
-                style=""
+                src="img/500x500.png"
+                style="width: 40px"
               />
             </a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">Home</a>
+
+          <li class="o-u-navigation-item">
+            <a href="/#about" class="o-u-navigation-link">About The Game</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#about" class="class-navigation-link">About the Game</a>
+          <li class="o-u-navigation-item">
+            <a href="/#why" class="o-u-navigation-link">Gameplay</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#why" class="class-navigation-link">Why Us?</a>
+          <li class="o-u-navigation-item">
+            <a href="/#uniqueness" class="o-u-navigation-link">Features</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#uniqueness" class="class-navigation-link"
-              >Our Uniqueness</a
-            >
+          <li class="o-u-navigation-item">
+            <a href="/#gallery" class="o-u-navigation-link">Visual Gallery</a>
+          </li>
+          <li class="o-u-navigation-item">
+            <a href="/#reviews" class="o-u-navigation-link">Player Reviews</a>
+          </li>
+          <li class="o-u-navigation-item">
+            <a href="/#faq" class="o-u-navigation-link">FAQ</a>
           </li>
 
-          <li class="class-navigation-item">
-            <a href="/#how" class="class-navigation-link">How to Play</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#characters" class="class-navigation-link">Characters</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#reviews" class="class-navigation-link">User Reviews</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#faq" class="class-navigation-link">FAQ</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#gallery" class="class-navigation-link">Gallery</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#features" class="class-navigation-link">Features</a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/policy.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Privacy Policy
-            </a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/terms.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Terms and Conditions
-            </a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/cookies.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Cookies Policy
-            </a>
+          <li class="o-u-navigation-item">
+            <a href="/#features" class="o-u-navigation-link">Contact</a>
           </li>
         </ul>
 
-        <div class="class-header-button-wrapper">
-          <a href="/" class="class-policy-terms-header-icon-menu">
+        <div class="o-u-header-button-wrapper">
+          <a href="/" class="o-u-policy-terms-header-icon-menu">
             <img
               href="/"
-              class="class-title-img"
+              class="o-u-title-img"
               alt="logo"
-              src="img"
-              style=""
+              src="img/500x500.png"
+              style="width: 40px"
             />
           </a>
 
-          <button
-            type="button"
-            class="class-header-icon-button"
-            data-menu-button
-          >
-            <img
-              class="class-header-icon class-header-icon-menu"
-              src="img/header/menu.png"
-              style=""
-              alt="menu "
-            />
-            <img
-              class="class-header-icon class-header-icon-close"
-              src="img/header/menu (1).png"
-              alt="close"
-            />
+          <button type="button" class="o-u-header-icon-button" data-menu-button>
+            <svg
+              class="o-u-header-icon o-u-header-icon-menu"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 30V26.6667H35V30H5ZM5 21.6667V18.3333H35V21.6667H5ZM5 13.3333V10H35V13.3333H5Z"
+                fill="white"
+              />
+            </svg>
+
+            <svg
+              class="o-u-header-icon o-u-header-icon-close"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 30V26.6667H35V30H5ZM5 21.6667V18.3333H35V21.6667H5ZM5 13.3333V10H35V13.3333H5Z"
+                fill="white"
+              />
+            </svg>
           </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="class-home" id="home">
-        <div class="class-home-container">
-          <div class="class-home-container-top">
+      <section class="o-u-home" id="home">
+        <div class="o-u-home-container">
+          <div class="o-u-home-container-top">
             <h1>
-              <img class="class-home-title-img" src="/img/home" alt="" />
+              <img
+                class="o-u-home-title-img"
+                src="/img/1.png"
+                alt="Price of Glory"
+              />
             </h1>
-            <p class="class-home-title">Merge Food - Chef Decoration</p>
-            <p class="class-home-text">
-              Cook, Merge, and Create Your Dream Kitchen!
-            </p>
-            <a class="class-home-link" href="#" target="_blank">
-              <img class="class-home-img" src="./img/home" alt="google play" />
+            <p class="o-u-home-title">Command wisely. Victory is never free.</p>
+
+            <a
+              class="o-u-home-link"
+              href="https://play.google.com/store/apps/details?id=net.maraudertech.priceofglory&hl=en&gl=us"
+              target="_blank"
+            >
+              <img
+                class="o-u-home-img"
+                src="./img/CTA_btn.png"
+                alt="google play"
+              />
             </a>
           </div>
         </div>
       </section>
-      <section class="class-about" id="about">
-        <div class="class-about-container">
-          <h2 class="class-about-title">About the Game</h2>
-          <p class="class-about-text">
-            <span class="class-about-text-bold"
-              >Merge Food - Chef Decoration</span
-            >
-            combines the
+      <section class="o-u-about" id="about">
+        <div class="o-u-about-container">
+          <h2 class="o-u-about-title">About the Game</h2>
+          <p class="o-u-about-text-bold">
+            Price of Glory: Tactics puts players in command of forces where
+            planning outweighs aggression.
           </p>
+          <div class="o-u-about-text">
+            <p>
+              You've got to read the field like a chess master - figure out what
+              your opponent's planning before they do it. Charging forward
+              without preparation can quickly lead to losses, while a patient
+              strategy can turn even a disadvantageous position into a win.
+            </p>
+            <p>
+              Campaign scenarios introduce new tactical challenges, forcing
+              players to adapt rather than rely on a single approach.
+            </p>
+          </div>
         </div>
       </section>
-      <article class="class-why" id="why">
+      <article class="o-u-why" id="why">
         <span style="display: none"
-          >Generated: 2025-04-12, Hash: class-qk-class-39fd7x</span
+          >Generated: 2025-04-12, Hash: o-u-qk-o-u-39fd7x</span
         >
 
-        <div class="class-why-container">
-          <h2 class="class-about-title">Why Us?</h2>
-          <dl class="class-why-list">
-            <div class="class-why-item">
-              <figure class="class-why-img">
-                <img class="class-why-img" src="img/why" alt="" />
-              </figure>
-              <div>
-                <dt class="class-why-text-bold">Fun and Relaxing:</dt>
-                <dd class="class-why-text">Perfect for unwinding after a</dd>
+        <div class="o-u-why-container">
+          <h2 class="o-u-about-title" style="margin: auto">Tactical</h2>
+          <h2 class="o-u-about-title-why">Gameplay</h2>
+          <dl class="o-u-why-list">
+            <div class="o-u-why-item">
+              <div class="o-u-why-item-two">
+                <dt class="o-u-why-text-bold">01</dt>
+                <dd class="o-u-why-text">Turn-Based Command</dd>
+                <dd class="o-u-why-text-two">
+                  Players alternate actions with opponents, giving you time to
+                  think things through before you make your move. Movement,
+                  positioning, and timing all influence the outcome of
+                  engagements.
+                </dd>
               </div>
+              <figure class="o-u-why-img">
+                <img class="o-u-why-img" src="img/why/1 (1).png" />
+              </figure>
+            </div>
+            <div class="o-u-why-item">
+              <div class="o-u-why-item-two">
+                <dt class="o-u-why-text-bold">02</dt>
+                <dd class="o-u-why-text">Terrain Advantage</dd>
+                <dd class="o-u-why-text-two">
+                  The terrain totally changes how you play. Elevated positions,
+                  narrow routes, and defensive structures can completely change
+                  the game - smart positioning beats just throwing units at the
+                  enemy.
+                </dd>
+              </div>
+              <figure class="o-u-why-img">
+                <img class="o-u-why-img" src="img/why/1 (2).png" />
+              </figure>
+            </div>
+            <div class="o-u-why-item">
+              <div class="o-u-why-item-two">
+                <dt class="o-u-why-text-bold">03</dt>
+                <dd class="o-u-why-text">Unit Coordination</dd>
+                <dd class="o-u-why-text-two">
+                  Don't put all your eggs in one basket - even your strongest
+                  unit needs backup.
+                </dd>
+              </div>
+              <figure class="o-u-why-img">
+                <img class="o-u-why-img" src="img/why/1 (3).png" />
+              </figure>
             </div>
           </dl>
         </div>
       </article>
-      <section class="class-uniqueness" id="uniqueness">
-        <div class="class-uniqueness-container">
-          <h2 class="class-about-title">Our Uniqueness</h2>
-          <div class="class-uniqueness-list">
-            <div class="class-uniqueness-item">
-              <img class="class-uniqueness-img" src="" alt="" />
-              <p class="class-uniqueness-text-bold">1. Food Fusion Fun</p>
-              <p class="class-uniqueness-text">
-                Discover unexpected recipes and combinations by merging
-                ingredients.
+      <section class="o-u-uniqueness" id="uniqueness">
+        <div class="o-u-uniqueness-container">
+          <h2 class="o-u-about-title">Key Features</h2>
+          <p class="o-u-uniqueness-text-bold">
+            It should feel like solving a puzzle, not mindlessly clicking
+            around.
+          </p>
+          <ul class="o-u-uniqueness-list">
+            <li class="o-u-uniqueness-item">
+              <p class="o-u-uniqueness-text">Turn-based tactical combat</p>
+            </li>
+            <li class="o-u-uniqueness-item">
+              <p class="o-u-uniqueness-text">Map-based strategic movement</p>
+            </li>
+            <li class="o-u-uniqueness-item">
+              <p class="o-u-uniqueness-text">Diverse battle scenarios</p>
+            </li>
+            <li class="o-u-uniqueness-item">
+              <p class="o-u-uniqueness-text">
+                Emphasis on positioning and planning
               </p>
-            </div>
-          </div>
+            </li>
+            <li class="o-u-uniqueness-item">
+              <p class="o-u-uniqueness-text">Gradual increase in challenge</p>
+            </li>
+          </ul>
         </div>
       </section>
+      <section class="o-u-gallery" id="gallery">
+        <div class="o-u-gallery-container">
+          <h2 class="o-u-about-title" style="margin: auto">Visual</h2>
+          <h2 class="o-u-about-title-why">Gallery</h2>
 
-      <section class="class-how" id="how">
-        <div class="class-how-container">
-          <h2 class="class-about-title">How to Play</h2>
-
-          <ul class="class-how-list">
-            <li class="class-how-item">
+          <ul class="o-u-gallery-list">
+            <li class="o-u-gallery-item">
               <img
-                class="class-how-img"
-                src="/img/how/image (1).png"
-                alt="image"
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (1).png"
+                alt="gallery image"
               />
-              <p class="class-how-text-bold">Merge Ingredients:</p>
-              <p class="class-how-text">
-                Drag and merge identical food items to discover new recipes.
-              </p>
             </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-characters" id="characters">
-        <div class="class-characters-container">
-          <h2 class="class-about-title">Characters</h2>
-          <ul class="class-characters-list">
-            <li class="class-characters-item">
-              <img class="class-characters-img" src="" alt="" />
-              <p class="class-characters-text-bold">Chef Bella:</p>
-              <p class="class-characters-text">
-                A cheerful pastry chef who inspires creativity in the kitchen
-                with her love for desserts.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-reviews" id="reviews">
-        <div class="class-reviews-container">
-          <h2 class="class-about-title">Reviews</h2>
-          <ul class="class-reviews-list">
-            <li class="class-reviews-item">
-              <div class="class-reviews-item-top">
-                <img
-                  class="class-reviews-img"
-                  src="/img/reviews/image 12.png"
-                  alt="image"
-                />
-                <p class="class-reviews-text-bold">GourmetGamer:</p>
-              </div>
-              <p class="class-reviews-text">
-                "This game is so addictive! I love discovering new recipes and
-                decorating my kitchen."
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-faq" id="faq">
-        <div class="class-faq-container">
-          <h2 class="class-about-title">FAQ</h2>
-          <ul class="class-faq-list">
-            <li class="class-faq-item">
-              <div class="class-faq-question" onclick="toggleAnswer(this)">
-                <span>Is "Merge Food - Chef Decoration" free to play?</span>
-                <button class="class-toggle-button">
-                  <img src="/img/faq/icon.png" alt="Toggle" />
-                </button>
-              </div>
-              <div class="class-faq-answer">
-                Yes, the game is free to play with optional in-app purchases for
-                special items.
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="class-gallery" id="gallery">
-        <div class="class-gallery-container">
-          <h2 class="class-about-title">Gallery</h2>
-
-          <ul class="class-gallery-list">
-            <li class="class-gallery-item">
+            <li class="o-u-gallery-item">
               <img
-                class="class-gallery-image"
-                src="./img/gallery/3.png"
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (2).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="o-u-gallery-item">
+              <img
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (3).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="o-u-gallery-item">
+              <img
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (4).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="o-u-gallery-item">
+              <img
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (5).png"
+                alt="gallery image"
+              />
+            </li>
+            <li class="o-u-gallery-item">
+              <img
+                class="o-u-gallery-image"
+                src="./img/gallery/2 (6).png"
                 alt="gallery image"
               />
             </li>
           </ul>
-          <div class="class-gallery-button-container">
-            <button class="class-gallery-button class-gallery-list-left">
+          <div class="o-u-gallery-button-container">
+            <button class="o-u-gallery-button o-u-gallery-list-left">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="o-u-gallery-button-icon"
+                src="img/gallery/Ic-Left.png"
                 alt="left button"
               />
             </button>
-            <button class="class-gallery-button class-gallery-list-right">
+            <button class="o-u-gallery-button o-u-gallery-list-right">
               <img
-                class="class-gallery-button-icon"
-                src="img"
+                class="o-u-gallery-button-icon"
+                src="img/gallery/Ic-Right.png"
                 alt="right button"
               />
             </button>
           </div>
         </div>
       </section>
-      <section class="class-features" id="features">
-        <div class="class-features-container">
-          <h2 class="class-about-title">Features</h2>
-
-          <ul class="class-features-list">
-            <li class="class-features-item">
-              <p class="class-features-text-bold">Daily Quests</p>
-              <img
-                class="class-features-img"
-                src="/img/features/image (2).png"
-                alt="image"
-              />
-              <p class="class-features-text">
-                Complete tasks for extra rewards.
+      <section class="o-u-reviews" id="reviews">
+        <div class="o-u-reviews-container">
+          <h2 class="o-u-about-title">Player Reviews</h2>
+          <h3 class="o-u-about-title-reviews">
+            Real Player Reviews & Experiences
+          </h3>
+          <ul class="o-u-reviews-list">
+            <li class="o-u-reviews-item">
+              <p class="o-u-reviews-text">
+                “Finally, a strategy game that doesn't need a PhD to
+                understand!”
               </p>
+              <div class="o-u-reviews-item-top">
+                <img
+                  class="o-u-reviews-img"
+                  src="/img/reviews/3 (1).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="o-u-reviews-text-bold">Ethan Walker</p>
+                  <p class="o-u-reviews-text-bold-two">#IronWolf</p>
+                </div>
+              </div>
+            </li>
+            <li class="o-u-reviews-item">
+              <p class="o-u-reviews-text">
+                “No dice rolls here - if you lose, it's because you screwed up,
+                not because RNG hates you.”
+              </p>
+              <div class="o-u-reviews-item-top">
+                <img
+                  class="o-u-reviews-img"
+                  src="/img/reviews/3 (2).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="o-u-reviews-text-bold">Olivia Brooks</p>
+                  <p class="o-u-reviews-text-bold-two"># Commander_Lex</p>
+                </div>
+              </div>
+            </li>
+            <li class="o-u-reviews-item">
+              <p class="o-u-reviews-text">
+                “Feels like real battlefield planning.”
+              </p>
+              <div class="o-u-reviews-item-top">
+                <img
+                  class="o-u-reviews-img"
+                  src="/img/reviews/3 (3).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="o-u-reviews-text-bold">Liam Carter</p>
+                  <p class="o-u-reviews-text-bold-two"># Tactician88</p>
+                </div>
+              </div>
+            </li>
+            <li class="o-u-reviews-item">
+              <p class="o-u-reviews-text">
+                “Hard to put down once you start a mission.”
+              </p>
+              <div class="o-u-reviews-item-top">
+                <img
+                  class="o-u-reviews-img"
+                  src="/img/reviews/3 (4).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="o-u-reviews-text-bold">Noah Bennett</p>
+                  <p class="o-u-reviews-text-bold-two">#SteelHawk</p>
+                </div>
+              </div>
+            </li>
+            <li class="o-u-reviews-item">
+              <p class="o-u-reviews-text">“Challenging but very rewarding.”</p>
+              <div class="o-u-reviews-item-top">
+                <img
+                  class="o-u-reviews-img"
+                  src="/img/reviews/3 (5).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="o-u-reviews-text-bold">Emma Collins</p>
+                  <p class="o-u-reviews-text-bold-two">#NovaStrike</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-    </main>
+      <section class="o-u-faq" id="faq">
+        <div class="o-u-faq-container">
+          <h2 class="o-u-about-title" style="margin: auto">FAQ</h2>
+          <h2 class="o-u-about-title-why">Guide</h2>
+          <ul class="o-u-faq-list">
+            <li class="o-u-faq-item">
+              <div class="o-u-faq-question" onclick="toggleAnswer(this)">
+                <span>Is the game fast-paced?</span>
+                <button class="o-u-toggle-button">
+                  <img src="/img/2.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="o-u-faq-answer">
+                No. It prioritizes careful decision-making over quick reactions.
+              </div>
+            </li>
+            <li class="o-u-faq-item">
+              <div class="o-u-faq-question" onclick="toggleAnswer(this)">
+                <span>Do missions vary in difficulty?</span>
+                <button class="o-u-toggle-button">
+                  <img src="/img/2.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="o-u-faq-answer">
+                Yes, later scenarios introduce more complex tactical situations.
+              </div>
+            </li>
+            <li class="o-u-faq-item">
+              <div class="o-u-faq-question" onclick="toggleAnswer(this)">
+                <span>Is strategy more important than unit strength?</span>
+                <button class="o-u-toggle-button">
+                  <img src="/img/2.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="o-u-faq-answer">
+                Where you put your units and when you move them usually decides
+                who wins.
+              </div>
+            </li>
+            <li class="o-u-faq-item">
+              <div class="o-u-faq-question" onclick="toggleAnswer(this)">
+                <span>Can beginners learn easily?</span>
+                <button class="o-u-toggle-button">
+                  <img src="/img/2.png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="o-u-faq-answer">
+                Early missions introduce mechanics gradually.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="o-u-features" id="features">
+        <div class="o-u-features-container">
+          <h2 class="o-u-about-title" style="margin: auto">Contact</h2>
+          <p class="o-u-features-text-bold">
+            Real Player Reviews & <br />
+            Experiences
+          </p>
+          <div class="o-u-features-text">
+            <a class="o-u-features-link" href="mailto:info@longridge.online"
+              >info@longridge.online
+              <img class="o-u-features-img" src="/img/Arrow Icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="o-u-footer" style="margin: auto; background: #080a0a">
+      <div class="o-u-footer-container">
+        <div class="o-u-footer-wrapper">
+          <a class="o-u-footer-text" href="/policy.html">Privacy Policy</a>
+          <a class="o-u-footer-text" href="/terms.html">Terms and conditions</a>
+        </div>
+        <p class="o-u-footer-copyright">
+          © 2026 longridge.online — All rights reserved
+        </p>
+      </div>
+    </footer>
     <script src="js/mobile-menu.js"></script>
-    <script src="js/jquery-loc-class-0.js"></script>
+    <script src="js/jquery-loc-o-u-0.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
   </body>
