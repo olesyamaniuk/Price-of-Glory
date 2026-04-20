@@ -286,7 +286,6 @@ a {
   margin: auto;
 }
 .o-u-home-container {
-  width: 375px;
   padding: 510px 16px 0px;
   margin: auto;
 }
@@ -328,12 +327,11 @@ a {
 
 @media screen and (min-width: 1200px) {
   .o-u-home {
-    width: 1440px;
+    width: auto;
 
     background-image: url("/img/Hero_Section\ \(1\).png");
   }
   .o-u-home-container {
-    width: 1440px;
     padding: 370px 499px 0px;
   }
   .o-u-home-container-top {
